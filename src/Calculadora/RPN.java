@@ -60,11 +60,11 @@ public double popPila( ) {
 				throw new IllegalArgumentException( );
 			}
 		}
-		double val = popPila( );
+		double value = popPila( );
 		if(arriba != null) {
 			throw new IllegalArgumentException( );
 		}
-		return val;
+		return value;
 	}
 	private String commando;
 	private NodoPila arriba;
